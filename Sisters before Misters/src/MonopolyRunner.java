@@ -22,6 +22,8 @@ public class MonopolyRunner
 			System.out.println("Welcome " + name + "!!");
 			System.out.println("Press enter to start the game");
 			enter = input.nextLine();
+			
+			
 		}
 
 	}
