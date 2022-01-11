@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class MonopolyRunner
 	{
+		//tester please ignore this comment
 		static Scanner input = new Scanner(System.in);
 		static String name;
 		static String enter;
