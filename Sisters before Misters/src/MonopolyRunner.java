@@ -10,6 +10,8 @@ public class MonopolyRunner
 
 		public static void main(String[] args)
 			{
+				ChestRunner.shuffle();
+				ChanceRunner.shuffle();
 				introduction();
 
 			}

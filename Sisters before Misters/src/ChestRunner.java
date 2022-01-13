@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class ChestRunner
 	{
-
+		static ArrayList<Chest> cards = new ArrayList<Chest>();
 		public static void Chest()
 			{
-				ArrayList<Chest> cards = new ArrayList<Chest>();
-				
+			
+				//done
 				cards.add(new Chest("You went to the movies pay $50", -50));
 				cards.add(new Chest("You stole snacks pay $100", -100));
 				cards.add(new Chest("You bought Disney Stock earn $200", +200));
@@ -15,8 +16,11 @@ public class ChestRunner
 				cards.add(new Chest("You bought Frozen pay $50", -50));
 				cards.add(new Chest("You got a subscription to Disney+, pay $100", -100));
 				cards.add(new Chest("You sold disney merch earn $100", +100));
-
-				
-				
 			}
+		public static void shuffle()
+			{
+			Collections.shuffle(cards);
+			}
+				
+			
 	}
