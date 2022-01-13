@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class MonopolyRunner
 	{
+		//tester please ignore this comment
 		static Scanner input = new Scanner(System.in);
 		static String name;
 		static String enter;
@@ -10,6 +11,7 @@ public class MonopolyRunner
 		public static void main(String[] args)
 			{
 				introduction();
+
 			}
 		
 		public static void introduction()
