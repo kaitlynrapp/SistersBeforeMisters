@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.ArrayList;
 
 public class MonopolyRunner
 	{
@@ -16,14 +16,12 @@ public class MonopolyRunner
 		
 		public static void introduction()
 		{
-			System.out.println("Hello and welcome to Monopoly! ");
-			System.out.println("What is your name? ");
+			System.out.println("Hello and welcome to Disnopoly! ");
+			System.out.println("What is your name Player? ");
 			name = input.nextLine();
-			System.out.println("Welcome " + name + "!!");
+			System.out.println("\nWelcome " + name + "!!");
 			System.out.println("Press enter to start the game");
 			enter = input.nextLine();
-			
-			
 		}
 
 	}

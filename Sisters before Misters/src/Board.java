@@ -1,16 +1,14 @@
-
 public class Board
 	{
 		private String name;
 		private int rent;
-		private String color;
+		private int placeNum;
 		
-		
-		public Board(String n, int r, String c)
+		public Board(String n, int r, int p)
 		{
 			name = n;
 			rent = r;
-			color = c;
+			placeNum = p;
 		}
 
 
@@ -38,14 +36,16 @@ public class Board
 			}
 
 
-		public String getColor()
+		public int getPlaceNum()
 			{
-				return color;
+				return placeNum;
 			}
 
 
-		public void setColor(String color)
+		public void setPlaceNum(int placeNum)
 			{
-				this.color = color;
+				this.placeNum = placeNum;
 			}
+
+
 	}
