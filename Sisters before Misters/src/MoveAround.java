@@ -116,6 +116,7 @@ public class MoveAround
 			else
 				{
 					//all the other properties
+					Prices.checkPrices();
 				}
 		}
 		
