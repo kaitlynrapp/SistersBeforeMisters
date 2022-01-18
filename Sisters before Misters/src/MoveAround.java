@@ -39,14 +39,12 @@ public class MoveAround
 		
 		public static void doAction()
 		{
-
 			if(MonopolyRunner.player1.getPlace() == 0)
 				{
 					//go method goes here
-//					System.out.println("Collect 200");
-//					balanceNew = MonopolyRunner.player1.getBalance() + 200;
-//					MonopolyRunner.player1.setBalance(balanceNew);
+					PassGo.PassGo();
 				}
+
 			else if(MonopolyRunner.player1.getPlace() == 2 || MonopolyRunner.player1.getPlace() == 16 || MonopolyRunner.player1.getPlace() == 27)
 
 
@@ -106,11 +104,6 @@ public class MoveAround
 				{
 					//jail
 					System.out.println("You are visiting jail");
-				}
-			else if(newPlace == 0)
-				{
-					//go method goes here
-					PassGo.PassGo();
 				}
 			else
 				{
