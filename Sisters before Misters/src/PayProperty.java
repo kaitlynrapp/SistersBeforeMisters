@@ -15,12 +15,19 @@ public class PayProperty
 				CoronaTownSquare i = new CoronaTownSquare();
 				CozyConeCafe j = new CozyConeCafe();
 				DrFaciliersMagicShop k = new DrFaciliersMagicShop();
-				FlosV8Cafe l = new FlosV8Cafe();
-				Frozen m = new Frozen();
-				IcePalace n = new IcePalace();
-				MickeysWaterWorks o = new MickeysWaterWorks();
-				MonstersIncElectricity p = new MonstersIncElectricity();
-				NewOrleansTrolley q = new NewOrleansTrolley();
+				ElephantGraveyard l = new ElephantGraveyard();
+				FlosV8Cafe m = new FlosV8Cafe();
+				Frozen n = new Frozen();
+				IcePalace o = new IcePalace();
+				MickeysWaterWorks p = new MickeysWaterWorks();
+				MonstersIncElectricity q = new MonstersIncElectricity();
+				NewOrleansTrolley r = new NewOrleansTrolley();
+				PrideRock s = new PrideRock();
+				PrincessAndTheFrog t = new PrincessAndTheFrog();
+				RamonesBodyShop u = new RamonesBodyShop();
+				Route66 v = new Route66();
+				SavannaCentral q = new SavannaCentral();
+				
 
 			}
 
