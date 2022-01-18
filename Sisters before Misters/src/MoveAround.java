@@ -31,7 +31,7 @@ public class MoveAround
 		
 		public static void moveSpaces()
 		{
-			BoardArrayList.fillList();
+			
 			newPlace = MonopolyRunner.player1.getPlace() + Dice.diceRoll;
 			System.out.println("You landed on: " + BoardArrayList.boardList.get(newPlace).getName());
 			MonopolyRunner.player1.setPlace(newPlace);
@@ -39,14 +39,14 @@ public class MoveAround
 		
 		public static void doAction()
 		{
-			if(newPlace == 0)
+			if(MonopolyRunner.player1.getPlace() == 0)
 				{
 					//go method goes here
 //					System.out.println("Collect 200");
 //					balanceNew = MonopolyRunner.player1.getBalance() + 200;
 //					MonopolyRunner.player1.setBalance(balanceNew);
 				}
-			else if(newPlace == 2 || newPlace == 16 || newPlace == 27)
+			else if(MonopolyRunner.player1.getPlace() == 2 || MonopolyRunner.player1.getPlace() == 16 || MonopolyRunner.player1.getPlace() == 27)
 				{
 					//chance
 					ChanceRunner.shuffle();
@@ -65,13 +65,13 @@ public class MoveAround
 					System.out.println("Your balance is: " + MonopolyRunner.player1.getBalance());
 					
 				}
-			else if(newPlace == 10)
+			else if(MonopolyRunner.player1.getPlace() == 10)
 				{
 					//go to jail 
 					System.out.println("You are now in jail");
 					MonopolyRunner.player1.setPlace(10);
 				}
-			else if(newPlace == 13 || newPlace == 22 || newPlace == 37)
+			else if(MonopolyRunner.player1.getPlace() == 13 || MonopolyRunner.player1.getPlace() == 22 || MonopolyRunner.player1.getPlace() == 37)
 				{
 					//community chest
 					ChestRunner.shuffle();
@@ -79,7 +79,7 @@ public class MoveAround
 					System.out.println("You picked up: ");
 					ChestRunner.Chest();
 				}
-			else if(newPlace == 18)
+			else if(MonopolyRunner.player1.getPlace() == 18)
 				{
 					//luxury tax
 					System.out.println("You have to pay 100");
@@ -87,19 +87,19 @@ public class MoveAround
 					System.out.println("Your new balance is " + MonopolyRunner.player1.getBalance());
 										
 				}
-			else if(newPlace == 20)
+			else if(MonopolyRunner.player1.getPlace() == 20)
 				{
 					//free parking
 					System.out.println("You get a free space");
 				}
-			else if(newPlace == 24)
+			else if(MonopolyRunner.player1.getPlace() == 24)
 				{
 					//income tax
 					System.out.println("You have to pay 200");
 					MonopolyRunner.player1.setBalance(MonopolyRunner.player1.getBalance() + 200);
 					System.out.println("Your new balance is " + MonopolyRunner.player1.getBalance());
 				}
-			else if(newPlace == 30)
+			else if(MonopolyRunner.player1.getPlace() == 30)
 				{
 					//jail
 					System.out.println("You are visiting jail");
