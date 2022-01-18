@@ -34,6 +34,9 @@ public class Prices
 								else
 									{
 
+										System.out.println();
+										System.out.println("Roll the dice again!");
+
 									}
 							}
 
