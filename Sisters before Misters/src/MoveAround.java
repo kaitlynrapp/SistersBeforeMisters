@@ -12,7 +12,6 @@ public class MoveAround
 		static String space;
 		static int balanceNew;
 		
-		
 		static int chanceMove;
 		static int chanceBalance;
 		
@@ -33,17 +32,9 @@ public class MoveAround
 		public static void moveSpaces()
 		{
 			BoardArrayList.fillList();
-
 			newPlace = MonopolyRunner.player1.getPlace() + Dice.diceRoll;
 			System.out.println("You landed on: " + BoardArrayList.boardList.get(newPlace).getName());
-
 			MonopolyRunner.player1.setPlace(newPlace);
-			
-			
-			//space = BoardArrayList.boardList.get(newPlace).getName();
-			//Property currentSpace = new space;
-			
-			
 		}
 		
 		public static void doAction()
