@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class MoveAround
 	{
+
+
+
 		
 		static Scanner input = new Scanner(System.in);
 		static String enter2;
@@ -21,7 +24,7 @@ public class MoveAround
 				moveSpaces();
 				doAction();
 
-			}
+
 		
 		public static void moveSpaces()
 		{

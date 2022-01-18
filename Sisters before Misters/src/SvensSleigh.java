@@ -5,7 +5,8 @@ public class SvensSleigh extends Property
 			{
 				name = "Sven's Sleigh";
 				color = "Dark Green";
-				int price = 0;
+				int price = 100;
+				int place = 15;
 				isTaken = false;
 			}
 	}

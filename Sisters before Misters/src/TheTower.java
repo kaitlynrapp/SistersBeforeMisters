@@ -5,7 +5,8 @@ public class TheTower extends Tangled
 			{
 				name = "The Tower";
 				color = "Pink";
-				int price = 0;
+				int price = 350;
+				int place = 34;
 				isTaken = false;
 			}
 	}
