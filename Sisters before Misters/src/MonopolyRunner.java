@@ -20,7 +20,7 @@ public class MonopolyRunner
 				ChestRunner.shuffle();
 				ChanceRunner.shuffle();
 				introduction();
-				
+			
 				MoveAround.startMoving();
 
 
