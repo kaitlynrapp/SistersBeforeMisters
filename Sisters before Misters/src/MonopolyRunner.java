@@ -15,14 +15,12 @@ public class MonopolyRunner
 				ChestRunner.shuffle();
 				ChanceRunner.shuffle();
 				introduction();
-
 				MoveAround.startMoving();
 
 			}
 
 		public static void introduction()
 			{
-
 
 			System.out.println("Hello and welcome to Disnopoly! ");
 			System.out.println("What is your name Player? ");
@@ -32,6 +30,7 @@ public class MonopolyRunner
 			System.out.println("You start with $1500");
 			System.out.println("Press enter to start the game");
 			enter = input.nextLine();
+			
 			}
 
 		public static void PassGoMain()
@@ -40,7 +39,6 @@ public class MonopolyRunner
 				// if(MoveAround.place == 0)
 
 				if (MonopolyRunner.player1.getPlace() == 0)
-
 					{
 						PassGo.PassGo();
 					}
