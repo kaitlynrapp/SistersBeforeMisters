@@ -5,7 +5,8 @@ public class ZootopiaTrain extends Railroads
 			{
 				name = "ZootopiaTrain";
 				color = "Dark Green";
-				int price = 0;
+				int price = 100;
+				int place = 5;
 				isTaken = false;
 			}
 	}

@@ -1,10 +1,16 @@
 
 public class Dice
 	{
+		static int dice1;
+		static int dice2;
+		static int diceRoll;
+		
 	public static void rollDice()
 		{
-		int dice1 = (int) (Math.random()* 6)  + 1;
-		int dice2 = (int) (Math.random()* 6)  + 1;
-		int diceRoll = dice1 + dice2;
+		dice1 = (int) (Math.random()* 6)  + 1;
+		dice2 = (int) (Math.random()* 6)  + 1;
+		diceRoll = dice1 + dice2;
+		
+		System.out.println("You rolled a " + diceRoll);
 		}
 	}

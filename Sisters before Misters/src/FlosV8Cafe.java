@@ -5,7 +5,8 @@ public class FlosV8Cafe extends Cars
 				{
 					name = "FlosV8Cafe";
 					color = "Red";
-					int price = 0;
+					int price = 50;
+					int place = 3;
 					isTaken = false;
 				}
 	}
