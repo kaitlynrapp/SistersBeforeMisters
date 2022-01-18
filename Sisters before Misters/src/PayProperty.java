@@ -26,7 +26,18 @@ public class PayProperty
 				PrincessAndTheFrog t = new PrincessAndTheFrog();
 				RamonesBodyShop u = new RamonesBodyShop();
 				Route66 v = new Route66();
-				SavannaCentral q = new SavannaCentral();
+				SavannaCentral w = new SavannaCentral();
+				SvensSleigh x = new SvensSleigh();
+				Tangled y = new Tangled();
+				TheBayou z = new TheBayou();
+				TheBeastsLibrary aa = new TheBeastsLibrary();
+				TheSultansPalace bb = new TheSultansPalace();
+				TheTower cc = new TheTower();
+				TheUglyDucklingTavern dd = new TheUglyDucklingTavern();
+				TianasPalace ee = new TianasPalace();
+				TreeOfLife ff = new TreeOfLife();
+				Tundratown gg = new Tundratown();
+				Zootopia hh = new Zootopia();
 				
 
 			}
