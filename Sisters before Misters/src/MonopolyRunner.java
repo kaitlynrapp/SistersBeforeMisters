@@ -27,6 +27,7 @@ public class MonopolyRunner
 			}
 
 		public static void introduction()
+		{
 
 			System.out.println("Hello and welcome to Disnopoly! ");
 			System.out.println("What is your name Player? ");
@@ -39,10 +40,10 @@ public class MonopolyRunner
 			}
 		public static void PassGoMain()
 			{
-			if(MoveAround.place == 0)
-				{
-				PassGo.PassGo();	
-				}
+			//if(MoveAround.place == 0)
+				//{
+				//PassGo.PassGo();	
+				//}
 			}
 
 

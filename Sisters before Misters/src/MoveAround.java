@@ -23,6 +23,8 @@ public class MoveAround
 				Dice.rollDice();
 				moveSpaces();
 				doAction();
+				
+			}
 
 
 		
