@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class ChanceRunner
 	{
-
+		static ArrayList<Chance> cards = new ArrayList<Chance>();
 		public static void Chance()
 			{
-				ArrayList<Chance> cards = new ArrayList<Chance>();
+				
 				//done
 				cards.add(new Chance("Go back three spaces", -3, 0));
 				cards.add(new Chance("Collect $200!", 0, 200));
@@ -16,7 +17,11 @@ public class ChanceRunner
 				cards.add(new Chance("Move back two spaces", -2, 0));
 				cards.add(new Chance("Lose $600", 0, -600));
 				cards.add(new Chance("Move foward ten spaces", 10,0));
-				
 			}
+		public static void shuffle()
+			{
+			Collections.shuffle(cards);
+			}
+			
 
 	}
