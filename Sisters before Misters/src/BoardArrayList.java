@@ -46,6 +46,7 @@ public class BoardArrayList
 			boardList.add(new Board("Community Chest", 0, 37));
 			boardList.add(new Board("Bunny Burrow", 400, 38));
 			boardList.add(new Board("Tundra Town", 400, 39));
+			
 		}
 		
 		

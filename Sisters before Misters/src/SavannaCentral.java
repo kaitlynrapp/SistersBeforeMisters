@@ -5,7 +5,8 @@ public class SavannaCentral extends Zootopia
 			{
 				name = "Savanna Central";
 				color = "Orange";
-				int price = 0;
+				int price = 400;
+				int place = 36;
 				isTaken = false;
 			}
 	}

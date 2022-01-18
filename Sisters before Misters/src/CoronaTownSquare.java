@@ -6,6 +6,7 @@ public class CoronaTownSquare extends Tangled
 				name = "Corona Town Square";
 				color = "Pink";
 				int price = 0;
+				int place = 33;
 				isTaken = false;
 			}
 	}

@@ -5,7 +5,8 @@ public class NewOrleansTrolley extends Property
 			{
 				name = "New Orleans Trolley";
 				color = "Dark Green";
-				int price = 0;
+				int price = 100;
+				int place = 25;
 				isTaken = false;
 			}
 	}
