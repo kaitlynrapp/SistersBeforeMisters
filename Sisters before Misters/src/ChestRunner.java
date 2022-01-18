@@ -16,10 +16,17 @@ public class ChestRunner
 				cards.add(new Chest("You bought Frozen pay $50", -50));
 				cards.add(new Chest("You got a subscription to Disney+, pay $100", -100));
 				cards.add(new Chest("You sold disney merch earn $100", +100));
+				
+				pickCard();
 			}
 		public static void shuffle()
 			{
 			Collections.shuffle(cards);
+			}
+		
+		public static void pickCard()
+			{
+				System.out.println(cards.get(0).getOutput());
 			}
 				
 			
