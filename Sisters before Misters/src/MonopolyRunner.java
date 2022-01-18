@@ -15,7 +15,18 @@ public class MonopolyRunner
 				ChestRunner.shuffle();
 				ChanceRunner.shuffle();
 				introduction();
-				MoveAround.startMoving();
+				
+				while(MonopolyRunner.player1.getBalance() > 0)
+					{
+						
+						MoveAround.startMoving();
+						if(MonopolyRunner.player1.getBalance() <= 0)
+							{
+								System.out.println("You ran out of money, the game is over");
+							}
+						
+					}
+				
 
 			}
 
