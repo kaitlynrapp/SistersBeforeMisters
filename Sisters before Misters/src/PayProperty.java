@@ -26,7 +26,7 @@ public class PayProperty
 				PrincessAndTheFrog t = new PrincessAndTheFrog();
 				RamonesBodyShop u = new RamonesBodyShop();
 				Route66 v = new Route66();
-				SavannaCentral q = new SavannaCentral();
+				SavannaCentral w = new SavannaCentral();
 				
 
 			}
