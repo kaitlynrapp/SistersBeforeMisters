@@ -5,7 +5,8 @@ public class MickeysWaterWorks extends Utilities
 			{
 				name = "Mickey's WaterWorks";
 				color = "Black";
-				int price = 0;
+				int price = 100;
+				int place = 8;
 				isTaken = false;
 			}
 	}
