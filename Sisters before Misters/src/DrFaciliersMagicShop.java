@@ -5,7 +5,8 @@ public class DrFaciliersMagicShop extends PrincessAndTheFrog
 			{
 				name = "Dr. Faciliers Magic Shop";
 				color = "Light Blue";
-				int price = 0;
+				int price = 300;
+				int place = 29;
 				isTaken = false;
 			}
 	}

@@ -5,7 +5,8 @@ public class Route66 extends Railroads
 			{
 				name = "Route 66";
 				color = "Dark Green";
-				int price = 0;
+				int price = 350;
+				int place = 35;
 				isTaken = false;
 			}
 	}
