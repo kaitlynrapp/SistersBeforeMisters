@@ -5,7 +5,8 @@ public class Bunnyburrow extends Zootopia
 			{
 				name = "Bunnyburrow";
 				color = "Orange";
-				int price = 0;
+				int price = 400;
+				int place = 38;
 				isTaken = false;
 			}
 	}

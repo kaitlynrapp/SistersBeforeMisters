@@ -5,7 +5,8 @@ public class TheBayou extends PrincessAndTheFrog
 			{
 				name = "The Bayou";
 				color = "Light Blue";
-				int price = 0;
+				int price = 300;
+				int place = 28;
 				isTaken = false;
 			}
 	}

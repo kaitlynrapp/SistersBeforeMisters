@@ -5,8 +5,8 @@ public class Aladdin extends Property
 		{
 			name = "Aladdin";
 			color = "Purple";
-			int price = 50;
-			int place = 1;
+			int price = 0;
+			
 			isTaken = false;
 		}
 	}

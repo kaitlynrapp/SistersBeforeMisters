@@ -12,27 +12,23 @@ public class MonopolyRunner
 
 		public static void main(String[] args)
 			{
-<<<<<<< HEAD
-			ChestRunner.shuffle();
-			ChanceRunner.shuffle();
-			introduction();
-=======
+
 				ChestRunner.shuffle();
 				ChanceRunner.shuffle();
 				introduction();
-				
+			
 				MoveAround.startMoving();
->>>>>>> upstream/master
+
+
 
 			}
 
 		public static void introduction()
-<<<<<<< HEAD
-			{
-=======
+    {
+      {
 
-		{
->>>>>>> upstream/master
+			{
+
 			System.out.println("Hello and welcome to Disnopoly! ");
 			System.out.println("What is your name Player? ");
 			name = input.nextLine();
@@ -44,7 +40,11 @@ public class MonopolyRunner
 			}
 		public static void PassGoMain()
 			{
-			if(MoveAround.place == 0)
+
+			//if(MoveAround.place == 0)
+
+			if(MonopolyRunner.player1.getPlace() == 0)
+
 				{
 				PassGo.PassGo();	
 				}

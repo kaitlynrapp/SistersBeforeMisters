@@ -5,7 +5,8 @@ public class TheSultansPalace extends Aladdin
 			{
 				name = "The Sultan's Palace";
 				color = "Purple";
-				int price = 0;
+				int price = 250;
+				int place = 21;
 				isTaken = false;
 			}
 		

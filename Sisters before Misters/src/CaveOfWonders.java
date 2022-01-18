@@ -5,7 +5,8 @@ public class CaveOfWonders extends Aladdin
 			{
 				name = "Cave Of Wonders";
 				color = "Purple";
-				int price = 0;
+				int price = 250;
+				int place = 23;
 				isTaken = false;
 			}
 	}
