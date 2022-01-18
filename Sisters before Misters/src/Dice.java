@@ -11,6 +11,15 @@ public class Dice
 		dice2 = (int) (Math.random()* 6)  + 1;
 		diceRoll = dice1 + dice2;
 		
-		System.out.println("You rolled a " + diceRoll);
-		}
+		if(MonopolyRunner.player1.getPlace() + diceRoll <= 39)
+				{
+					System.out.println("You rolled a " + diceRoll);
+				}
+		else if(MonopolyRunner.player1.getPlace() + diceRoll > 39)
+			{
+				System.out.println("You rolled a " + diceRoll);
+				PassGo.PassGo();
+				MonopolyRunner.player1.setPlace((MonopolyRunner.player1.getPlace() + diceRoll) - 39);
+			}
+	}
 	}
