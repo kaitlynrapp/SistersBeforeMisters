@@ -15,9 +15,7 @@ public class Prices
 					{
 						if (BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getisTaken() == false)
 							{
-								System.out.println("This property is "
-										+ BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getRent()
-										+ " dollars. Would you like to purchase it?");
+								System.out.println("This property is " + BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getRent() + " dollars. Would you like to purchase it?");
 								System.out.println("1. Yes");
 								System.out.println("2. No");
 								int buy = input.nextInt();
@@ -33,6 +31,9 @@ public class Prices
 
 								else
 									{
+
+										System.out.println();
+										System.out.println("Roll the dice again!");
 
 									}
 							}
