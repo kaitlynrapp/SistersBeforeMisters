@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class MoveAround
 	{
+
+
+
 		
 		static Scanner input = new Scanner(System.in);
 		static String enter2;
@@ -18,7 +21,7 @@ public class MoveAround
 				Dice.rollDice();
 				moveSpaces();
 
-			}
+
 		
 		public static void moveSpaces()
 		{
