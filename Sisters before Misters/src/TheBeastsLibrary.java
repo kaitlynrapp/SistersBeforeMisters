@@ -5,7 +5,8 @@ public class TheBeastsLibrary extends BeautyAndTheBeast
 			{
 				name = "The Beasts Library";
 				color = "Yellow";
-				int price = 0;
+				int price = 100;
+				int place = 1;
 				isTaken = false;
 			}
 	}

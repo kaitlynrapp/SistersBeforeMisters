@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class MonopolyRunner
 	{
-		//tester please ignore this comment
+		// tester please ignore this comment
 		static Scanner input = new Scanner(System.in);
 		static String name;
 		static String enter;
@@ -18,8 +18,9 @@ public class MonopolyRunner
 				MoveAround.startMoving();
 
 			}
-		
+
 		public static void introduction()
+
 		{
 			System.out.println("Hello and welcome to Disnopoly! ");
 			System.out.println("What is your name Player? ");
@@ -30,5 +31,6 @@ public class MonopolyRunner
 			System.out.println("Press enter to start the game");
 			enter = input.nextLine();
 		}
+
 
 	}

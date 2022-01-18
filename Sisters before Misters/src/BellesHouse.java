@@ -5,7 +5,8 @@ public class BellesHouse extends BeautyAndTheBeast
 			{
 				name = "Belles House";
 				color = "Yellow";
-				int price = 0;
+				int price = 100;
+				int place = 7;
 				isTaken = false;
 			}
 	}

@@ -5,7 +5,8 @@ public class ChateauDeChambord extends BeautyAndTheBeast
 			{
 				name = "Chateau De Chambord";
 				color = "Yellow";
-				int price = 0;
+				int price = 100;
+				int place = 6;
 				isTaken = false;
 			}
 	}
