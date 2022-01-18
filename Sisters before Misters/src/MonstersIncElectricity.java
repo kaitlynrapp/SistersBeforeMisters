@@ -5,7 +5,8 @@ public class MonstersIncElectricity extends Utilities
 			{
 				name = "Monster's Inc Electricity";
 				color = "Black";
-				int price = 0;
+				int price = 100;
+				int place = 32;
 				isTaken = false;
 			}
 	}

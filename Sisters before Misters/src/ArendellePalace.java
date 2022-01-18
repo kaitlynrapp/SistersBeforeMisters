@@ -5,7 +5,8 @@ public class ArendellePalace extends Frozen
 			{
 				name = "Arendelle Palace";
 				color = "Blue";
-				int price = 0;
+				int price = 200;
+				int place = 117;
 				isTaken = false;
 			}
 	}
