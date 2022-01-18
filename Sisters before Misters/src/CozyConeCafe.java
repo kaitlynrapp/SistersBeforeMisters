@@ -6,7 +6,7 @@ public class CozyConeCafe extends Cars
 				name = "Cozy Cone Cafe";
 				color = "Red";
 				int price = 50;
-				int place = 1;
+				int place = 4;
 				isTaken = false;
 			}
 	}
