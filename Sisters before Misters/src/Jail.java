@@ -5,7 +5,7 @@ public class Jail extends Property
 			{
 				name = "Jail";
 				color = "White";
-				int price = 0;
+				int place = 1;
 				isTaken = false;
 			}
 	}
