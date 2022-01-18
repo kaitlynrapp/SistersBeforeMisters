@@ -6,7 +6,7 @@ public class TheUglyDucklingTavern extends Tangled
 				name = "The Ugly Duckling Tavern";
 				color = "Pink";
 				int price = 350;
-				int place = 29;
+				int place = 31;
 				isTaken = false;
 			}
 	}
