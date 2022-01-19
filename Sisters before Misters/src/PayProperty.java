@@ -41,6 +41,11 @@ public class PayProperty
 				
 				//if(Player.getPlace() = a.Place)
 					
+<<<<<<< HEAD
+						//a.place();
+					
+=======
+>>>>>>> upstream/master
 				
 
 			}
