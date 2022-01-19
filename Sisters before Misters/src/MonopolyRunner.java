@@ -11,17 +11,6 @@ public class MonopolyRunner
 
 		public static void main(String[] args)
 			{
-<<<<<<< HEAD
-			//while(player1.getBalance() > 0)
-				//{
-			ChestRunner.shuffle();
-			ChanceRunner.shuffle();
-			introduction();
-			
-			MoveAround.startMoving();
-			PassGoMain();
-				//}
-=======
 
 				ChestRunner.shuffle();
 				ChanceRunner.shuffle();
@@ -38,7 +27,7 @@ public class MonopolyRunner
 						
 					}
 				
->>>>>>> upstream/master
+
 
 			}
 
