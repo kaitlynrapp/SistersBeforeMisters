@@ -41,7 +41,7 @@ public class PayProperty
 				
 				//if(Player.getPlace() = a.Place)
 					
-						a.place();
+						//a.place();
 					
 				
 

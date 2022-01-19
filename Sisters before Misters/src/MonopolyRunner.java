@@ -12,17 +12,15 @@ public class MonopolyRunner
 
 		public static void main(String[] args)
 			{
-
+			//while(player1.getBalance() > 0)
+				//{
 			ChestRunner.shuffle();
 			ChanceRunner.shuffle();
 			introduction();
-
-				ChestRunner.shuffle();
-				ChanceRunner.shuffle();
-				introduction();
 			
-				MoveAround.startMoving();
-
+			MoveAround.startMoving();
+			PassGoMain();
+				//}
 
 			}
 
