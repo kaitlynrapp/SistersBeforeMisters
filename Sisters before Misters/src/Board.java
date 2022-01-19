@@ -3,12 +3,14 @@ public class Board
 		private String name;
 		private int rent;
 		private int placeNum;
+		private boolean isTaken;
 		
-		public Board(String n, int r, int p)
+		public Board(String n, int r, int p, boolean t)
 		{
 			name = n;
 			rent = r;
 			placeNum = p;
+			isTaken = t;
 		}
 
 
@@ -46,6 +48,19 @@ public class Board
 			{
 				this.placeNum = placeNum;
 			}
+
+
+		public boolean getisTaken()
+			{
+				return isTaken;
+			}
+
+
+		public void setTaken(boolean isTaken)
+			{
+				this.isTaken = isTaken;
+			}
+		
 
 
 	}

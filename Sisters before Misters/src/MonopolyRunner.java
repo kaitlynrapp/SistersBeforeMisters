@@ -9,9 +9,9 @@ public class MonopolyRunner
 		static String enter;
 		static Player player1;
 
-
 		public static void main(String[] args)
 			{
+<<<<<<< HEAD
 			//while(player1.getBalance() > 0)
 				//{
 			ChestRunner.shuffle();
@@ -21,11 +21,30 @@ public class MonopolyRunner
 			MoveAround.startMoving();
 			PassGoMain();
 				//}
+=======
+
+				ChestRunner.shuffle();
+				ChanceRunner.shuffle();
+				introduction();
+				BoardArrayList.fillList();
+				while(MonopolyRunner.player1.getBalance() > 0)
+					{
+						
+						MoveAround.startMoving();
+						if(MonopolyRunner.player1.getBalance() <= 0)
+							{
+								System.out.println("You ran out of money, the game is over");
+							}
+						
+					}
+				
+>>>>>>> upstream/master
 
 			}
 
 		public static void introduction()
 			{
+
 			System.out.println("Hello and welcome to Disnopoly! ");
 			System.out.println("What is your name Player? ");
 			name = input.nextLine();
@@ -34,14 +53,19 @@ public class MonopolyRunner
 			System.out.println("You start with $1500");
 			System.out.println("Press enter to start the game");
 			enter = input.nextLine();
-			}
-		public static void PassGoMain()
-			{
-			if(MonopolyRunner.player1.getPlace() == 0)
-				{
-				PassGo.PassGo();	
-				}
+			
 			}
 
+		public static void PassGoMain()
+			{
+
+				// if(MoveAround.place == 0)
+
+				if (MonopolyRunner.player1.getPlace() == 0)
+					{
+						PassGo.PassGo();
+					}
+
+			}
 
 	}
