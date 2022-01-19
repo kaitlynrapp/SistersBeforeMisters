@@ -32,6 +32,10 @@ public class Player
 			{
 				this.balance = balance;
 			}
+		public void addToBalance(int b)
+			{
+			balance =+ b;
+			}
 
 		public int getPlace()
 			{
