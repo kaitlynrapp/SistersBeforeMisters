@@ -46,7 +46,21 @@ public class Player
 			{
 				this.place = place;
 			}
-		
-		
-
+		public void incrementPlace(int il)
+			{
+				place+= il;
+				if(place>40) {
+					place-=40;
+				}
+			}
+		public void reverseIncrementPlace(int il)
+			{
+				place+= il;
+				if(place<2
+						0) {
+					place-=40;
+				}
+			}
 	}
+
+	

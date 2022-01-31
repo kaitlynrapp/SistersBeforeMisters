@@ -7,15 +7,15 @@ public class ChestRunner
 			{
 			
 				//done
-				cards.add(new Chest("You went to the movies pay $50", -50));
-				cards.add(new Chest("You stole snacks pay $100", -100));
-				cards.add(new Chest("You bought Disney Stock earn $200", +200));
-				cards.add(new Chest("You went to the disney store pay $400", -400));
-				cards.add(new Chest("You went to disneyland pay $300", -300));
-				cards.add(new Chest("You stole mickey mouse pay $600", -600));
-				cards.add(new Chest("You bought Frozen pay $50", -50));
-				cards.add(new Chest("You got a subscription to Disney+, pay $100", -100));
-				cards.add(new Chest("You sold disney merch earn $100", +100));
+				cards.add(new Chest("You went to the movies pay $100", -50));
+				cards.add(new Chest("You invested pay $100", -100));
+				cards.add(new Chest("You bought Stock loose $100", +200));
+				cards.add(new Chest("You went to the store pay $100", -100));
+				cards.add(new Chest("You went to store pay $100", -300));
+				cards.add(new Chest("You stole mickey mouse pay $100", -600));
+				cards.add(new Chest("You bought more stock pay $100", -50));
+				cards.add(new Chest("You got a subscription pay $100", -100));
+				cards.add(new Chest("You bought monopoly merch pay $100", +100));
 				
 				pickCard();
 			}

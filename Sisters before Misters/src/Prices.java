@@ -1,12 +1,9 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Prices
 	{
-
-		public static void main(String[] args)
-			{
-
-			}
+	
 
 		public static void checkPrices()
 			{
@@ -25,6 +22,7 @@ public class Prices
 										System.out.println();
 										System.out.println("Congrats! You now own " + BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getName());
 										BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).setTaken(true);
+										BoardArrayList.playerOneProperties.add(new Inventory(BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getName()));
 										MonopolyRunner.player1.setBalance((MonopolyRunner.player1.getBalance() - (BoardArrayList.boardList.get(MonopolyRunner.player1.getPlace()).getRent())));
 										System.out.println("Your current balance is: " + MonopolyRunner.player1.getBalance() + " dollars");
 									}
@@ -33,7 +31,7 @@ public class Prices
 									{
 
 										System.out.println();
-										System.out.println("Roll the dice again!");
+										System.out.println("Lets Continue Playing!");
 
 									}
 							}
@@ -43,6 +41,7 @@ public class Prices
 								System.out.println("You already own this property! Roll again");
 							}
 					}
+				ShowInventory.ShowInventory();
 			}
 
 	}

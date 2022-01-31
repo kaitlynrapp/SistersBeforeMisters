@@ -1,9 +1,9 @@
 
 public class Dice
 	{
-		static int dice1;
-		static int dice2;
-		static int diceRoll;
+		public static int dice1;
+		public static int dice2;
+		public static int diceRoll;
 		
 	public static void rollDice()
 		{
@@ -11,15 +11,38 @@ public class Dice
 		dice2 = (int) (Math.random()* 6)  + 1;
 		diceRoll = dice1 + dice2;
 		
-		if(MonopolyRunner.player1.getPlace() + diceRoll <= 39)
-				{
-					System.out.println("You rolled a " + diceRoll);
-				}
-		else if(MonopolyRunner.player1.getPlace() + diceRoll > 39)
+		if(MoveAround.clockwise)
 			{
-				System.out.println("You rolled a " + diceRoll);
-				PassGo.PassGo();
-				MonopolyRunner.player1.setPlace((MonopolyRunner.player1.getPlace() + diceRoll) - 39);
+		
+		if(MonopolyRunner.player1.getPlace() + Dice.diceRoll <= 39)
+			{
+				System.out.println("You rolled a " + Dice.diceRoll);
+				MoveAround.newPlace =  MonopolyRunner.player1.getPlace() + Dice.diceRoll;
+				//MonopolyRunner.player1.setPlace(MonopolyRunner.player1.getPlace() + Dice.diceRoll);
+			}
+	else if(MonopolyRunner.player1.getPlace() + Dice.diceRoll > 39)
+		{
+			System.out.println("You rolled a " + Dice.diceRoll);
+			PassGo.PassGo();
+			MoveAround.newPlace = (MonopolyRunner.player1.getPlace() + Dice.diceRoll) - 40; 
+			//MonopolyRunner.player1.setPlace((MonopolyRunner.player1.getPlace() + Dice.diceRoll) - 40);
+		}
+			}
+		else if(MoveAround.clockwise == false)
+			{
+				if(MonopolyRunner.player1.getPlace() - Dice.diceRoll < 0)
+					{
+						System.out.println("You rolled a " + Dice.diceRoll);
+						PassGo.PassGo();
+						MoveAround.newPlace = (MonopolyRunner.player1.getPlace() - Dice.diceRoll) + 40;
+					}
+						else if(MonopolyRunner.player1.getPlace() + Dice.diceRoll <= 39)
+					{
+						System.out.println("You rolled a " + Dice.diceRoll);
+						MoveAround.newPlace =  MonopolyRunner.player1.getPlace() - Dice.diceRoll;
+						//MonopolyRunner.player1.setPlace(MonopolyRunner.player1.getPlace() + Dice.diceRoll);
+					}
+			
 			}
 	}
 	}
